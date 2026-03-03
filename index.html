@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge | Portfólio Dev</title>
+    
+    <!-- Fontes e ícones -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR - Menu de navegação -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Jorge<span class="logo-dot">.</span></a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Início</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            
+            <div class="nav-right">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fa-regular fa-moon"></i>
+                </button>
+                <button class="mobile-menu" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+        <!-- HOME / INÍCIO -->
+        <section id="home" class="section home">
+            <div class="container">
+                <div class="home-content">
+                    <div class="home-text">
+                        <span class="home-badge">👋 Olá, eu sou</span>
+                        <h1 class="home-title">Jorge Henrique</h1>
+                        <h2 class="home-subtitle">Estudante de Desenvolvimento Web</h2>
+                        <p class="home-description">
+                            Tenho 17 anos e sou apaixonado por tecnologia. Curso o ensino médio 
+                            e já crio projetos legais com HTML, CSS, JavaScript e um pouco de Python.
+                        </p>
+                        <div class="home-buttons">
+                            <a href="#projetos" class="btn btn-primary">
+                                <i class="fa-solid fa-code"></i> Ver projetos
+                            </a>
+                            <a href="#contato" class="btn btn-outline">
+                                <i class="fa-regular fa-comment"></i> Contato
+                            </a>
+                        </div>
+                        <div class="home-social">
+                            <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="home-image">
+                        <div class="image-box">
+                            <img src="imaagem\images.png" 
+                                 alt="Jorge" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="section sobre">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Sobre <span class="gradient-text">mim</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="sobre-content">
+                    <div class="sobre-text">
+                        <p class="sobre-paragraph">
+                            Me chamo Jorge, tenho 17 anos e estou no 3º ano do ensino médio. 
+                            Comecei a programar há 2 anos por curiosidade e hoje já não consigo 
+                            mais parar! Adoro criar coisas novas e ver meus códigos ganhando vida.
+                        </p>
+                        <p class="sobre-paragraph">
+                            Tenho conhecimento sólido em <strong>HTML e CSS</strong>, nível médio em 
+                            <strong>JavaScript</strong> e estou começando com <strong>Python</strong>. 
+                            Já recriei interfaces famosas (como o Nubank) e fiz projetos sobre temas 
+                            que eu gosto, como Pokémon e Hora de Aventura.
+                        </p>
+                        
+                        <div class="sobre-info">
+                            <div class="info-item">
+                                <i class="fa-regular fa-calendar"></i>
+                                <span>17 anos</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fa-regular fa-building"></i>
+                                <span>Ensino Médio - 3º ano</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fa-regular fa-map"></i>
+                                <span>Brasil</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>Código & Criatividade</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="sobre-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Anos estudando</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">12+</div>
+                            <div class="stat-label">Projetos feitos</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label">Vontade de aprender</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section id="habilidades" class="section habilidades">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Minhas <span class="gradient-text">Habilidades</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- HTML - Avançado -->
+                    <div class="skill-card">
+                        <div class="skill-icon html-bg">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <h3>HTML</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                        <span class="skill-percent">Avançado</span>
+                    </div>
+                    
+                    <!-- CSS - Avançado -->
+                    <div class="skill-card">
+                        <div class="skill-icon css-bg">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                        <span class="skill-percent">Avançado</span>
+                    </div>
+                    
+                    <!-- JavaScript - Médio -->
+                    <div class="skill-card">
+                        <div class="skill-icon js-bg">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 65%"></div>
+                        </div>
+                        <span class="skill-percent">Médio</span>
+                    </div>
+                    
+                    <!-- Python - Básico -->
+                    <div class="skill-card">
+                        <div class="skill-icon python-bg">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <h3>Python</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 40%"></div>
+                        </div>
+                        <span class="skill-percent">Básico</span>
+                    </div>
+                </div>
+                
+                <div class="tools-section">
+                    <h3>Ferramentas que uso:</h3>
+                    <div class="tools-list">
+                        <span class="tool-tag">VS Code</span>
+                        <span class="tool-tag">Git</span>
+                        <span class="tool-tag">GitHub</span>
+                        <span class="tool-tag">Figma</span>
+                        <span class="tool-tag">Chrome DevTools</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section id="projetos" class="section projetos">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Meus <span class="gradient-text">Projetos</span></h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Projetos que fiz estudando e me divertindo</p>
+                </div>
+                
+                <div class="projetos-grid">
+                    <!-- Projeto 1: Pokémon -->
+                    <div class="projeto-card">
+                        <div class="card-image" style="background: linear-gradient(135deg, #ef4444, #dc2626);">
+                            <i class="fa-solid fa-dragon" style="font-size: 4rem; color: rgba(255,255,255,0.3);"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Pokédex</h3>
+                            <p>Uma Pokédex interativa com cards dos pokémons, tipos e evoluções. Usei API do Pokémon e JavaScript.</p>
+                            <div class="card-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>API</span>
+                            </div>
+                            <div class="card-links">
+                                <a href="#" class="card-link"><i class="fa-brands fa-github"></i> Código</a>
+                                <a href="#" class="card-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Projeto 2: Hora de Aventura -->
+                    <div class="projeto-card">
+                        <div class="card-image" style="background: linear-gradient(135deg, #f59e0b, #d97706);">
+                            <i class="fa-regular fa-face-smile" style="font-size: 4rem; color: rgba(255,255,255,0.3);"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Hora de Aventura Fan Page</h3>
+                            <p>Site dedicado à série Hora de Aventura com personagens, episódios e curiosidades.</p>
+                            <div class="card-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Responsivo</span>
+                            </div>
+                            <div class="card-links">
+                                <a href="#" class="card-link"><i class="fa-brands fa-github"></i> Código</a>
+                                <a href="#" class="card-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Projeto 3: Clone Nubank -->
+                    <div class="projeto-card">
+                        <div class="card-image" style="background: linear-gradient(135deg, #820ad1, #a855f7);">
+                            <i class="fa-solid fa-building-columns" style="font-size: 4rem; color: rgba(255,255,255,0.3);"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Clone Nubank</h3>
+                            <p>Recriei a interface do app Nubank para praticar CSS e layout responsivo.</p>
+                            <div class="card-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Flexbox</span>
+                                <span>Grid</span>
+                            </div>
+                            <div class="card-links">
+                                <a href="#" class="card-link"><i class="fa-brands fa-github"></i> Código</a>
+                                <a href="#" class="card-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Projeto 4: Agenda Tecnológica -->
+                    <div class="projeto-card">
+                        <div class="card-image" style="background: linear-gradient(135deg, #3b82f6, #2563eb);">
+                            <i class="fa-regular fa-calendar-check" style="font-size: 4rem; color: rgba(255,255,255,0.3);"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Agenda Tecnológica</h3>
+                            <p>Agenda de eventos de tecnologia com filtros e formulário para adicionar eventos.</p>
+                            <div class="card-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>LocalStorage</span>
+                            </div>
+                            <div class="card-links">
+                                <a href="#" class="card-link"><i class="fa-brands fa-github"></i> Código</a>
+                                <a href="#" class="card-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projetos-more">
+                    <a href="#" class="btn btn-outline">Ver mais no GitHub <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="section contato">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Entre em <span class="gradient-text">contato</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="contato-content">
+                    <div class="contato-info">
+                        <div class="contato-item">
+                            <i class="fa-regular fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>jorge.chaves.lima@escola.pr.gov.br</p>
+                            </div>
+                        </div>
+                        <div class="contato-item">
+                            <i class="fa-brands fa-github"></i>
+                            <div>
+                                <h3>GitHub</h3>
+                                <p>/jorgK1ng</p>
+                            </div>
+                        </div>
+                        <div class="contato-item">
+                            <i class="fa-brands fa-instagram"></i>
+                            <div>
+                                <h3>Instagram</h3>
+                                <p>@jorgx7_</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contato-form">
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu email" required>
+                        <textarea rows="5" placeholder="Sua mensagem" required></textarea>
+                        <button type="submit" class="btn btn-primary">
+                            Enviar mensagem <i class="fa-regular fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Jorge Henrique - Desenvolvido com <i class="fa-regular fa-heart"></i> durante o ensino médio</p>
+            <p class="footer-emoji">🚀 Sempre aprendendo</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
